@@ -69,3 +69,26 @@ body{
 #gallery2 img:hover {
    filter:none;
 }
+
+#video_gallery {
+   line-height:0;
+   -webkit-column-count:3;
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:3;
+   -moz-column-gap:5px;
+   column-count:3;
+   column-gap:10px;
+}
+#video_gallery video {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   filter: grayscale(100%);
+   transition: filter 1s;
+   border-radius: 1.5rem;
+   border: solid;
+}
+
+#video_gallery video:hover {
+   filter:none;
+}
