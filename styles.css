@@ -1,0 +1,117 @@
+body{
+	
+	background:url(background.jpg) center no-repeat;
+	max-width: 90%;
+  margin: auto;
+	background-size:cover;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	font-family: Impact;
+	word-spacing: .5rem;
+	line-height: 2rem;
+}
+
+header{
+	display: inline-block;
+	
+}
+
+nav{
+	
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+	padding:10px;
+	width: 90%;
+	background: white;
+	position:absolute;
+	overflow: visible;
+	border-radius: 0.4rem; 
+	z-index: 99; 
+	
+}
+nav ul{
+	padding: 0;
+	margin: 0 0 0 250px;
+	list-style: none;
+}
+nav li{
+  float: left;
+}
+nav li a {
+	width:185px;
+	display:block;
+	padding:10px 10px;
+	text-decoration:none;
+	font-family:arial;
+	color:grey;
+	text-align:center;
+}
+nav li a:hover{
+	background:#8B0000;
+	text-transform:uppercase;
+}
+.logo img{
+	position: relative;
+	
+	margin-left: -100px;
+	width: 400px;
+	height: 200px;
+	z-index: 99; 
+	
+}
+
+.karta{
+	
+	top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	position:fixed;
+	width: 80rem;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 5px 10px 18px #888888;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: .8rem;
+	
+	
+}
+.karta_img{
+		
+		
+		min-width: 25rem;
+		height: 45rem;
+		transform: translateY(-2rem);
+		position: relative;
+		box-shadow: .5rem .5rem .rem 1px rgba(0, 0, 0, 0.5);
+		
+}
+.karta_img img{
+		
+		object-fit:cover;
+		display: block;
+		border-radius: 2rem;
+		height: 100%;
+		width: 100%;
+		box-shadow: 5px 10px 18px #888888;
+		
+}
+.karta_nadpis{
+			font-size: 2.5rem;
+			margin: 5rem 9rem 5rem;
+			text-transform: uppercase;
+			text-decoration: underline;
+			color: #8B0000;
+}
+.karta_paragraf{
+			margin-bottom: 3rem;
+			font-size: 1.4rem;
+			margin: 5rem 9rem 5rem;
+}
+
+
+
