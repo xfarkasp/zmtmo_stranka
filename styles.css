@@ -32,9 +32,6 @@ header{
 nav{
 	
   top: 10%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 	padding:10px;
 	width: 90%;
 	background: white;
@@ -62,13 +59,14 @@ nav li a {
 	text-align:center;
 }
 nav li a:hover{
+	transition: 0.5s;
 	background:#8B0000;
 	text-transform:uppercase;
 }
 .logo img{
 	position: relative;
 	
-	margin-left: -100px;
+	transform: translate(-20%, 5%);
 	width: 400px;
 	height: 200px;
 	z-index: 99; 
@@ -76,52 +74,41 @@ nav li a:hover{
 }
 
 .karta{
-	width: 100%;
-	background: rgba(255, 255, 255, 0.8);
-	box-shadow: 5px 10px 18px #888888;
+	width: 45%;
+	
+	transform: translate(10%, 125%);
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: .8rem;
+	float: right;
 }
-.karta_img{
-		
-		
-		min-width: 25rem;
-		height: 45rem;
-		border-radius: .8rem;
-		position: relative;
-		box-shadow: .5rem .5rem .rem 1px rgba(0, 0, 0, 0.5);
-		
-}
-.karta_img img{
-		
-		object-fit:cover;
-		display: block;
-		border-radius: .8rem;
-		height: 100%;
-		width: 100%;
-		box-shadow: 5px 10px 18px #888888;
-		
-}
+
 .karta_nadpis{
 			font-size: 2.5rem;
-			margin: 5rem 9rem 5rem;
+			
 			text-transform: uppercase;
-			text-decoration: underline;
 			color: #8B0000;
 }
 .karta_paragraf{
-			margin-bottom: 3rem;
-			font-size: 1.4rem;
-			margin: 5rem 9rem 5rem;
+			font-size: 1.5rem;
+			
 }
-
+.karta_img img{
+		transform: translate(0, -5%);
+		width: 24%;
+		height: auto;
+    float: right;
+    border: solid 2px;
+    box-shadow: 5px 10px 18px #888888;
+		border-radius: 1.5rem;
+}
 #icons {
     height: 500px;
     width: 140px;
     background: none;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: calc(50% - 250px);
     display: flex;
