@@ -1,0 +1,52 @@
+body{
+	
+	background:url(../Fotky/Index/mobil_gif.gif);
+	
+}
+
+.parametre_banner img{
+	position: fixed;
+	float: left;
+	width: 17%;
+	height: auto;
+	
+	box-shadow: 5px 10px 18px #888888;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	border: solid 5px;
+	border-radius: 1.5rem;
+	position: relative;
+	left: 20%;
+	position: fixed;
+ 	transition: 0.2s;
+}
+
+.karta_parametre{
+	float: right;
+	min-width: 40%;
+	width: 30%;
+	min-height: 617.85px;
+	background: rgba(255, 255, 255, 0.98);
+	box-shadow: 5px 10px 18px #888888;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.5rem;
+	position: relative;
+	right: 10%;
+}
+
+.karta_parametre_nadpis{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8B0000;
+}
+
+.karta_parametre_tabulka{
+  	margin: 2rem;
+  	font-size: 1.5rem;
+  	text-align: left;
+  	line-height:5rem;
+}
