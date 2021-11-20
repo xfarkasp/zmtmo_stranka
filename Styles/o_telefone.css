@@ -1,0 +1,151 @@
+body{
+	background:none;
+	background-color: #777872;
+}
+
+.fotak_banner img{
+	float: right;
+	right: 28%;
+	max-width: auto;
+	height: 850px;
+	background: url(fotak-banner.jpg) center no-repeat;
+	box-shadow: 5px 10px 18px #888888;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.5rem;
+	position: relative;
+}
+.dark_side img{
+	float: right;
+	right: -22%;
+	max-width: auto;
+	height: 850px;
+	background: url(fotak-banner.jpg) center no-repeat;
+	box-shadow: 5px 10px 18px #888888;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.5rem;
+	position: relative;
+}
+
+.karta_fotak{
+	float: left;
+	min-width: 41%;
+	width: 41%;
+	min-height: 617.85px;
+	background: rgba(255, 255, 255, 0.98);
+	box-shadow: 5px 10px 18px #888888;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.5rem;
+	position: relative;
+}
+
+.karta_fotak_nadpis{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8B0000;
+}
+
+.karta_fotak_tabulka{
+  	margin: 2rem;
+  	font-size: 1.5rem;
+  	line-height:5rem;
+}
+
+#gallery1 {
+	
+   clear: both;
+   line-height:2;
+   outline-width: 100%;
+   -webkit-column-count:7;
+   -webkit-column-gap:5px; 
+   -moz-column-count:7;
+   -moz-column-gap:7px;
+   column-count:7;
+   column-gap:10px;
+   border-radius: 1.5rem;
+
+}
+#gallery1 img {
+   transform: translate(0%, 4%);
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   border-radius: 1.5rem;
+   border: solid;
+}
+#gallery1 p{
+	text-transform: uppercase;
+	text-align: center;
+	color: #8B0000;
+	background-color: white;
+	font-size: 1.5rem;
+	align-items: center;
+	justify-content: center;
+	border: solid;
+	border-color: black;
+	border-radius: 1.5rem;
+}
+
+#fotka {
+  position: relative;
+  text-align: left;
+}
+
+#fotka button{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  background-color: #8B0000; 
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 700px;
+  border-radius: 3rem;
+}
+#fotka button a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color: white;
+	font-family: impact;
+}
+
+#fotka img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   border-radius: 1.5rem;
+   border: solid;
+}
+
+#fotka2 {
+  position: relative;
+  text-align: left;
+}
+
+#fotka2 p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+  color: #f1c623;
+  font-size: 2rem;
+}
+#fotka2 img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   border-radius: 1.5rem;
+   border: solid;
+}
+
