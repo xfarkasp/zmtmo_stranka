@@ -71,7 +71,11 @@
 			   <p>Základný foto mód</p>
   		</div>
   		<div id="fotka2">
-			<img  src="../Fotky/Kamera/kamera_app_black.jpg" alt="pain">
+  			<picture>
+			  <source srcset="../Fotky/Kamera/kamera_app_black.jpg" media="(min-width: 1400px)"/>
+			  <source srcset="../Fotky/Kamera/kamera_app_black_800px.jpg" media="(max-width: 800px)"/>
+			  <img src="../Fotky/Kamera/kamera_app_black.jpg" alt="example"/>
+			</picture>
 			<p>
 				Vďaka štvorici objektívov môžete fotiť rôzne druhy fotografií, od bežných 
 				momentiek až po pôsobivé portréty. Hlavný objektív telefónu Xiaomi Redmi 
